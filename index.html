@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>吴江区投资热力图</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="吴江投资热力图" />
+		<meta name="description" content="吴江投资热力图" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/fontfamily.css" />
+		<script>
+			//解决rem适配初始化闪屏的问题
+			var screenW = document.documentElement.clientWidth / 1080;
+			document.documentElement.style.fontSize = 100 * screenW + 'px';
+		</script>
+		<link rel="stylesheet" href="css/mui.min.css">
+		<script>document.write("<link href='css/index_new.css?v=" + Date.now() + "' rel='stylesheet' type='text/css'/>");</script>
+		<link href="css/layer.css" rel="stylesheet" />
+		<style>
+
+            /*遮罩层样式开始*/
+            body {
+                overflow-y: hidden;
+            }
+
+            .zhezhaodiv1 {
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                filter: alpha(opacity=50);
+                -moz-opacity: 0.7;
+                opacity: 0.7;
+                position: fixed;
+                left: 0px;
+                right: 0px;
+                display: block;
+                z-index: 1000;
+            }
+
+            .zhezhaotext1 {
+                width: 100%;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                z-index: 1500;
+                font-family: KaiTi;
+                color: white;
+                top: 42%;
+                position: fixed;
+                font-size: 32px;
+                line-height: 40px;
+            }
+
+			 /*遮罩层样式结束*/
+        </style>
+	</head>
+	<body>
+
+		<!-- 遮罩层的视图开始 -->
+		<!-- <div class="zhezhaodiv1"></div>
+		<div class="zhezhaotext1" align="center">
+            人才创新合作专享图<br />即将上线<br />敬请期待
+		</div>   -->
+		<!-- 遮罩层的视图结束 -->
+		<div id="index2" style="display: none;">
+			<div class="zhezhaodiv"></div>
+			<div class="zhezhaotext" align="center">
+				<div class="topclass">
+					<div class="parent" align="center">
+						<div class="typebox">
+							<ul class="imglist">
+								<li class="fli">
+									<a href="javascript:showWJJJ()">
+										<img src="img/tb0.png" id="tb0" />
+									</a>
+								</li>							
+								<li>
+									<a href="javascript:showTzkcxlt()">
+										<img src="img/tb1.png" id="tb1" />
+									</a>
+								</li>
+								<li class="lli">
+									<a href="javascript:showPtztdyt()">
+										<img src="img/tb3.png" id="tb3" />
+									</a>
+								</li>
+							</ul>
+							<ul class="imglist">
+								<li class="fli">
+									<a href="javascript:showCyydgyt()">
+										<img src="img/tb2.png" id="tb2" />
+									</a>
+								</li>
+								<li>
+									<a href="javascript:showTzjhhzt()">
+										<img src="img/tb4.png" id="tb4" />
+									</a>
+								</li>						
+								<li class="lli">
+									<a href="javascript:showCylgyt()">
+										<img src="img/tb5.png" id="tb5" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="background">
+				<div class="centerclass">
+					<div class="centercontainer" align="center">
+						<img src="img/center2.png" class="logo2" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="index1">
+			<div class="background">
+				<div class="topcontainer">
+					<div class="topmain1">
+						<div>
+							<img id="imgTop1" src="img/top1.png" class="top1" />
+						</div>
+						<div>
+							<img id="imgTop3" src="img/top3.png" class="top3" />
+						</div>
+					</div>
+					<div class="topmain2">
+						<img id="imgTop4" src="img/top4.png" class="top4" />
+					</div>
+				</div>
+				<div class="centerclass">
+					<div class="logocontainer" align="center">
+						<img src="img/logo.png" class="logo" />
+					</div>
+				</div>
+				<div>
+					<div class="parent" align="center">
+						<div class="rukou">
+							<img src="img/icon_rukou_ch.png" class="rukouimg" id="imgrukou" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div id="language">
+				<div class="mui-btn mui-btn-primary mui-active" id="cn" style=" width: 20%;">
+					<span>
+						简体中文
+					</span>	
+				</div>
+				<div class="langline">|</div>
+				<div class="mui-btn mui-btn-primary" id="en" style=" width: 20%;">
+					<span>
+						ENGLISH
+					</span>
+				</div>					
+			</div>	 -->
+			<p id="banquan" class="footer">版权所有©2019-2020&nbsp;&nbsp;苏州市吴江区外商投资促进中心&nbsp;&nbsp;<br />备案号:<a href="https://beian.miit.gov.cn/" target="_blank" style="color:#817f80;">苏ICP备2020051973号-1</a>技术支持:苏州市测绘院有限责任公司&nbsp;&nbsp;</p>
+		</div>
+
+
+	</body>
+</html>
+
+<script type="text/javascript" src="layer-v3.1.1/layer/mobile/layer.js"></script>
+<script>document.write("<script type='text/javascript' src='js/index.js?v=" + Date.now() + "'><\/script>");</script>
